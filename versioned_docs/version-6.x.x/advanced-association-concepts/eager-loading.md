@@ -300,7 +300,7 @@ WHERE `Instruments`.`size` != 'small';
 
 By default, associations are loaded using a `LEFT OUTER JOIN` - that is to say it only includes records from the parent table. You can change this behavior to a `RIGHT OUTER JOIN` by passing the `right` option, if the dialect you are using supports it.
 
-Currently, SQLite does not support [right joins](https://www.sqlite.org/omitted.html).
+Currently, SQLite does support [right joins]([https://www.sqlite.org/omitted.html](https://www.sqlite.org/changes.html#:~:text=sqlite3.c%3A%206d13fcf1c31133da541d1eb8a83552d746f39b81a0657bd4077fed0221749511-,2022%2D06%2D25%20(3.39.0),-Add%20(long%20overdue)).
 
 *Note:* `right` is only respected if `required` is false.
 
